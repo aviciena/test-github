@@ -1,5 +1,5 @@
 //
-//  TestProjectTests.swift
+//  ViewControllerTests.swift
 //  TestProjectTests
 //
 //  Created by Ibnu Siena on 5/2/18.
@@ -9,8 +9,7 @@
 import XCTest
 @testable import TestProject
 
-class TestProjectTests: XCTestCase {
-    
+class ViewControllerTests: XCTestCase {
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -31,5 +30,9 @@ class TestProjectTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testInitializeUI() {
+        XCTAssertTrue(true)
     }
 }

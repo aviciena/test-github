@@ -14,6 +14,7 @@
 		C3414E78209992490086FC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3414E76209992490086FC07 /* LaunchScreen.storyboard */; };
 		C3414E83209992490086FC07 /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3414E82209992490086FC07 /* TestProjectTests.swift */; };
 		C3414E8E209992490086FC07 /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3414E8D209992490086FC07 /* TestProjectUITests.swift */; };
+		C3414E9E209994990086FC07 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3414E9D209994990086FC07 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C3414E89209992490086FC07 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3414E8D209992490086FC07 /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		C3414E8F209992490086FC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3414E9D209994990086FC07 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				C3414E82209992490086FC07 /* TestProjectTests.swift */,
 				C3414E84209992490086FC07 /* Info.plist */,
+				C3414E9D209994990086FC07 /* ViewControllerTests.swift */,
 			);
 			path = TestProjectTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3414E9E209994990086FC07 /* ViewControllerTests.swift in Sources */,
 				C3414E83209992490086FC07 /* TestProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
