@@ -21,6 +21,6 @@ class ViewController: UIViewController {
     }
     
     func initializeUI() {
-        //Add code documentation
+        
     }
 }
